@@ -14,11 +14,7 @@ body:
     label: Criteria
     description: For a package to be acceptable in this bucket, it should be
     options:
-    - label: Criteria 1
-      required: true
-    - label: Criteria 2
-      required: true
-    - label: Criteria 3
+    - label: The package is not available already in one of the official Scoop buckets (unless it's a different version like nightly, beta, master or an alternative repo for projects that have multiple build repositories)
       required: true
 - type: input
   attributes:
