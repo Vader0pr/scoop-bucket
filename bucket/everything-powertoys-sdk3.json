@@ -12,12 +12,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lin-ycv/EverythingPowerToys/releases/download/v0.91.1/EverythingPT-0.91.1-x64.zip",
-            "hash": "1ab45af0a4e8c39dd355a7264629911ab14ab12f3231a49849a69c0570de8790"
-        },
-        "arm64": {
-            "url": "https://github.com/lin-ycv/EverythingPowerToys/releases/download/v0.91.1/EverythingPT-0.91.1-ARM64.zip",
-            "hash": "84c01f76b15fbe7bd6b9681f683c37ee6506512daae6ec89d6d2bf3ae3377170"
+            "url": "https://github.com/lin-ycv/EverythingPowerToys/releases/download/v0.91.1/EverythingPT-0.91.1.1-x64-SDK3.zip",
+            "hash": "dfc07df5706d4e4ba2c95413d5a86b0b03c179ffc9af2e7f17f2afd16743bc18"
         }
     },
     "post_install": "New-Item -ItemType Junction -Path \"$env:LOCALAPPDATA\\Microsoft\\PowerToys\\PowerToys Run\\Plugins\\Everything\" -Target \"$dir\\Everything\" | Out-Null",

@@ -2,7 +2,10 @@
     "version": "20251219",
     "description": "Video player based on MPlayer/mplayer2 (builds by zhongfly)",
     "homepage": "https://mpv.io",
-    "license": "LGPL-2.1-or-later,GPL-2.0-or-later",
+    "license": [
+        "LGPL-2.1-or-later",
+        "GPL-2.0-or-later"
+    ],
     "notes": [
         "To set and unset file type associations and AutoPlay handlers, run '$dir\\installer\\mpv-install.bat' and '$dir\\installer\\mpv-uninstall.bat' as administrator, respectively.",
         "You can use Icaros ('nonportable/icaros-np') to enable thumbnails for all media types."
@@ -13,11 +16,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/2025-12-19-6739fd4/mpv-x86_64-20251219-git-6739fd4.7z",
-            "hash": "tbd"
+            "hash": "2ee50f6a79975981da80d074a91e7e573a56e0980be79663ae1f0d00527c89fb"
         },
         "arm64": {
             "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/2025-12-19-6739fd4/mpv-aarch64-20251219-git-6739fd4.7z",
-            "hash": "tbd"
+            "hash": "78739f2bffc4ecbe2e4d5a72aa489e1ae0e3099c51012286487df1e1ed24df76"
         }
     },
     "pre_install": "if (Test-Path \"$dir\\updater.bat\") { Remove-Item \"$dir\\updater.bat\" }",
