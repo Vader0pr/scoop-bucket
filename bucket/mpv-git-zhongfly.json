@@ -12,8 +12,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/2025-12-22-5820906/mpv-x86_64-20251222-git-5820906.7z",
-            "hash": "0daa0903e23b970fb1c7e8625e043e610939e058d7e69c0ccd10da1d49f249c9"
+            "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/2025-12-22-5820906/mpv-x86_64-v3-20251222-git-5820906.7z",
+            "hash": "61398cc91c8500ab895245a558bf8118fc345416742ea9f14b6cea57a6769bbd"
         },
         "arm64": {
             "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/2025-12-22-5820906/mpv-aarch64-20251222-git-5820906.7z",
