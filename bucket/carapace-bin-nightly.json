@@ -1,20 +1,20 @@
 {
-    "version": "2025-12-21",
+    "version": "2025-12-22",
     "description": "Multi-shell multi-command argument completer (Nightly builds)",
     "homepage": "https://carapace-sh.github.io/carapace-bin/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/carapace-sh/nightly/releases/download/2025-12-21/carapace-bin_1.5.7-SNAPSHOT-3109d715_windows_amd64.zip",
-            "hash": "32b2455260bc22b5312d9c5af09a5bc4dce9539dad291cb200363521979b4794"
+            "url": "https://github.com/carapace-sh/nightly/releases/download/2025-12-22/carapace-bin_1.5.7-SNAPSHOT-3109d715_windows_amd64.zip",
+            "hash": "67b05928bf1afd16491fc2c04beeeaed8898cf525bf3fddf9e5700fe77964292"
         },
         "32bit": {
-            "url": "https://github.com/carapace-sh/nightly/releases/download/2025-12-21/carapace-bin_1.5.7-SNAPSHOT-3109d715_windows_386.zip",
-            "hash": "b29feff1fa35fc4b7f9dd888a6d2136f3baa3ae8bd551bb8460b3ae980c51860"
+            "url": "https://github.com/carapace-sh/nightly/releases/download/2025-12-22/carapace-bin_1.5.7-SNAPSHOT-3109d715_windows_386.zip",
+            "hash": "6e130656bd6cf8dff710f480b133f6f61979de7ff80a0d317a17e00291dcaf5c"
         },
         "arm64": {
-            "url": "https://github.com/carapace-sh/nightly/releases/download/2025-12-21/carapace-bin_1.5.7-SNAPSHOT-3109d715_windows_arm64.zip",
-            "hash": "9e0e05e5c0b81b3d3c73bc73c8321ec90c2462098a915492b2a1c10f7c26b33d"
+            "url": "https://github.com/carapace-sh/nightly/releases/download/2025-12-22/carapace-bin_1.5.7-SNAPSHOT-3109d715_windows_arm64.zip",
+            "hash": "44321048ea043e6dd5f93cf6ec6ff4aebea81a8891ad9729e01a230ad72bc78d"
         }
     },
     "bin": "carapace.exe",
