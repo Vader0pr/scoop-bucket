@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Dicklesworthstone/beads_viewer/releases/download/v0.15.2/bv_0.15.2_windows_amd64.tar.gz",
-            "hash": "55688c7d7106b68546f72900d43c935eef42741545eaf88797e6840e39df9443"
+            "hash": "55688c7d7101b68546f72900d43c935eef42741545eaf88797e6840e39df9443"
         }
     },
     "bin": "bv.exe",
@@ -19,4 +19,3 @@
         }
     }
 }
-            "hash": "55688c7d7101b68546f72900d43c935eef42741545eaf88797e6840e39df9443"
